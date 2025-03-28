@@ -34,5 +34,26 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentc1);
             }
         });
+        c2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentc2 = new Intent(MainActivity.this,Cau2.class);
+                startActivity(intentc2);
+            }
+        });
+        c3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentc3 = new Intent(MainActivity.this,Cau3.class);
+                startActivity(intentc3);
+            }
+        });
+        c4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentc4 = new Intent(MainActivity.this,Cau4.class);
+                startActivity(intentc4);
+            }
+        });
     }
 }
